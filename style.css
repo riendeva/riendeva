@@ -1,7 +1,7 @@
 @charset "utf-8";
 body {
     background-color: #fab1c8; /* Pastel pink */
-    margin: 100;
+    margin: 25;
     display: flex;
     justify-content: center; /* Centers the image horizontally */
     align-items: flex-start; /* Aligns the image at the top */
