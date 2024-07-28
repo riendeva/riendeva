@@ -1,0 +1,36 @@
+@charset "utf-8";
+body {
+    background-color: #fab1c8; /* Pastel pink */
+    margin: 25;
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: flex-start; /* Aligns the image at the top */
+    height: 100vh; /* Ensures body takes full viewport height */
+}
+
+img {
+    margin-top: 25px; /* Optional: Adds some space at the top */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+    background: #d9a5c7; /* Pastel pink */
+    border-radius: 10px;
+}
+
+/* Style the scrollbar itself */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar */
+}
+
+/* Style the scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: #f5edf0; /* Another shade of pink for contrast */
+    border-radius: 10px;
+}
+
+/* Optionally, style the scrollbar corner (for horizontal scroll) */
+::-webkit-scrollbar-corner {
+    background: #d9a5c7; /* Match the track color */
+}
